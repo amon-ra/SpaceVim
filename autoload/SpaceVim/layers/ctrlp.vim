@@ -3,7 +3,7 @@ function! SpaceVim#layers#ctrlp#plugins() abort
                 \ ['ctrlpvim/ctrlp.vim', {'loadconf' : 1}],
                 \ ['voronkovich/ctrlp-nerdtree.vim', { 'on_cmd' : 'CtrlPNerdTree'}],
                 \ ['h14i/vim-ctrlp-buftab',          { 'on_cmd' : 'CtrlPBufTab'}],
-                \ ['vim-scripts/ctrlp-cmdpalette',   { 'on_cmd' : 'CtrlPCmdPalette'}],
+                \ ['fisadev/ctrlp-cmdpalette',   { 'on_cmd' : 'CtrlPCmdPalette'}],
                 \ ['mattn/ctrlp-windowselector',     { 'on_cmd' : 'CtrlPWindowSelector'}],
                 \ ['the9ball/ctrlp-gtags',           { 'on_cmd' : ['CtrlPGtagsX','CtrlPGtagsF','CtrlPGtagsR']}],
                 \ ['thiderman/ctrlp-project',        { 'on_cmd' : 'CtrlPProject'}],
